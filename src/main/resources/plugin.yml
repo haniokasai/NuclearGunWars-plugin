@@ -1,0 +1,49 @@
+name: ArrowGun
+main: com.haniokasai.nukkit.ArrowGun.Main
+version: 0.0.1
+author: haniokasai
+api: ["1.0.0"]
+description: com.haniokasai.nukkit.ArrowGun
+website: http://haniokasai.com
+
+commands:
+   pvp:
+      description: PVPに参加します
+      usage: /pvp
+      default: true
+   mi:
+      description: 自分の情報
+      usage: /mi
+      default: true
+   stat:
+      description: チームの状態
+      usage: /stat
+      default: true
+   rekit:
+      description: PVPに参加します
+      usage: /pvp
+      default: true
+   c:
+      description: チームチャット
+      usage: /c <メッセージ>
+      default: true
+   ntag:
+      description: 名前タグ
+      usage: /n <タグ名>
+      default: true
+   buyg:
+      description: 銃の購入
+      usage: /buyg  <銃番号> <スロット番号>
+      default: true
+   cg:
+      description: 銃の価格確認
+      usage: /cg <タグ名>
+      default: true
+   ch:
+      description: 秘密のパスワードを入力します
+      usage: /ch <秘密のパスワード>
+      default: true
+   pban:
+      description: pban
+      usage: /pban <playername>
+      default: true
